@@ -1,0 +1,19 @@
+body {
+    font-size: 32px;
+    text-align: center;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+
+  button {
+    font-size: 2rem;
+    margin: 2em;
+    padding: 1rem;
+  }
+
+  p {
+    grid-column: span 3;
+  }
